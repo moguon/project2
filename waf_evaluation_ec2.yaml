@@ -126,7 +126,7 @@ Resources:
             ec2-metadata -o | cut -d ' ' -f 2 >> /nfs-client/list.txt
             umount 172.16.2.100:/nfs-shared
             rmdir /nfs-client
-            wget https://raw.githubusercontent.com/netidgo/project2/refs/heads/main/dvwa_config.sh
+            wget https://raw.githubusercontent.com/moguon/project2/refs/heads/main/dvwa_config.sh
             chmod +x dvwa_config.sh
             sh dvwa_config.sh
             rm -f dvwa_config.sh
